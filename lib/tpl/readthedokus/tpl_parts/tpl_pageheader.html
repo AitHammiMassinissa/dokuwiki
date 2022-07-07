@@ -1,0 +1,37 @@
+<?php global $conf, $lang, $ACT, $INFO, $ID, $DOKU_BASE ?>
+
+<div id="pageheader">
+	<!-- Messages -->
+	<div id="msgarea">
+	    <?php html_msgarea() ?>
+	</div>
+
+	<div style="display:flex;align-items:center">
+		<!-- Breadcrumbs -->
+		<div class="breadcrumbs">
+			<?php if (tpl_getConf("dokuwikibreadcrumbs_enable")) { ?>
+				<?php tpl_breadcrumbs(); ?>
+				<?php tpl_youarehere(); ?>
+			<?php } else { ?>
+				<?php if ($ACT == "show" || $ACT == "search") { ?>
+				<span class="home"><a href="<?php echo tpl_getConf('startpage'); ?>"><?php echo tpl_getlang("breadcrumbs_docs"); ?></a></span>
+				<?php } else { ?>
+				<span class="admin"><a href="<?php echo wl($ID,array('do'=>'admin'),true,'&'); ?>"><?php echo tpl_getlang("breadcrumbs_admin"); ?></a></span>
+				<?php } ?>
+				»  <bdi><?php tpl_pagetitle(); ?></bdi>
+			<?php } ?>
+		</div>
+
+		<!-- Edit this page -->
+		<?php if ($ACT == "show" && $INFO["editable"]) { ?>
+			<a style="margin-left:auto" href="<?php echo wl($ID,array('do'=>'edit'),true,'&'); ?>">
+				<i class="fas fa-pencil-alt"></i>
+				<span> <?php echo tpl_getlang("pageheader_editthispage"); ?></span>
+			</a>
+		<?php } ?>
+	</div>
+
+	<?php tpl_includeFile('pageheader.html') ?>
+
+	<hr>
+</div>

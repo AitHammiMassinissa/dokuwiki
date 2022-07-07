@@ -1,0 +1,50 @@
+<form>
+action template wiki:reponse_Individual_member "IndividualMember:@@Individual member@@"
+Thanks "Thanks for submitting your valuable data."
+Textarea "Individual member" "=@@Individual member@@"
+textarea  "personal commitment" "=@@personal commitment@@"
+Textarea "research and teaching challenges" "=@@Iresearch and teaching challenges@@"
+Fieldset  "personal data" 
+=="individual registration"==
+Textbox  "n° IP smartphone(Read)" "=@@n° IP smartphone(Read)@@"
+number "Phone number" "=@@Phone number@@"
+Textarea  "visit history" "=@@visit history@@"
+email  "email" "=@@email@@"
+password  "password" "=@@password@@"
+email  "Regular mail" "=@@Regular mail@@"
+Fieldset "Contacts" 
+Textarea "Individual contact" "=@@Individual contact@@"
+Textarea "Institutional contacts" "=@@Institutional contacts@@"
+Fieldset "Individual registration" 
+Textbox "first names" "=@@first names@@"
+TextBoX "Last names" "=@@Last names@@"
+Textarea "short name" "=@@short name@@"
+TextBox "main title" "=@@main title@@"
+Textarea "personal webpages" "=@@personal webpages@@"
+Textarea "Hyperlink" "=@@Hyperlink@@"
+Textarea "institutional memberships"  "=@@institutional memberships@@"
+Textbox "organisational commitments" "=@@organisational commitments@@"
+
+Textbox  "all messages" "=@@all messages@@"
+Textbox   "contacts" "=@@contacts@@"
+Textbox "institutional contacts" "=@@institutional contacts@@"
+
+
+fieldset "agreement"
+
+yesno "Read the agreement?"
+textbox "You need to write 'agree' here" /^agree$/
+submit "Submit Query"
+</form>
+
+
+
+
+
+
+
+
+
+
+
+

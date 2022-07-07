@@ -1,0 +1,17 @@
+====== Upload ======
+----
+<form>
+action template memotpl.txt memodump:%Y: :
+
+fieldset "Info"
+
+textbox "Subject"
+date "Date" "=@YEAR@-@MONTH@-@DAY@" @
+textbox "Brief Description"
+textbox "Keywords"
+
+fieldset "Select & Upload Files"
+file "Upload file:"
+
+submit "Upload"
+</form>

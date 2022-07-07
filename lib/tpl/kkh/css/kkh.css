@@ -1,0 +1,438 @@
+/* Written by Gero Gothe <practical@medizin-lernen.de> */
+
+/* Allgemeine Seitendarstellung */
+
+/* #dokuwiki__footer {display:none;} */
+
+body {
+	/*background:#f2f2f2;*/
+	background:none;
+	font: normal 90%/1.4 Arial,sans-serif;
+	overflow-x:hidden;
+}
+
+html {
+	background-position: center;
+	background-size: cover !important;
+	background-repeat: no-repeat;
+	background-attachment: fixed !important;
+	background:#eaeaea;
+    background-size: auto;
+}
+
+.dokuwiki a.wikilink1 {
+	color:#2b73b7;
+}
+
+/* Inhaltsseiten */
+
+.dokuwiki div.page {
+	box-shadow: 0 1px 20px -1px rgba(0, 0, 0, 0.1);
+    min-height: 400px !important;
+}
+
+.dokuwiki .pageId span {
+	box-shadow: none;
+	border:none;
+	margin-right:1em;
+}
+
+#dokuwiki__content h1{
+	padding-left:16px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-left:15px solid black;
+	font-weight:bold;
+}
+
+/* Header und Footer anpassen */
+
+#dokuwiki__header h1 img {
+	max-width:220px !important;
+	max-height:55px !important;
+}  /* Logo: Größe */
+
+#dokuwiki__header h1 span {
+	color: #ffffff;
+	font-size:30px;
+	font-family:Arial;
+	
+	/* text-shadow: 1px 1px 2px #ccc;	*/
+	padding-top:15px;
+}
+
+#dokuwiki__usertools {
+	position:relative;
+	top:0;
+	right:0;
+}
+
+#dokuwiki__header {
+	font: normal 85%/1.4 Arial,sans-serif;
+	padding-top:0;
+	position:absolute;
+	left:0;
+	top:0;
+	width:100vw;
+}
+
+#dokuwiki__header .tools {
+	margin-bottom:0;
+	margin-top:0;
+	margin-right:1.5em;
+}
+
+#dokuwiki__header a {color:white;}
+
+
+#dokuwiki__site {
+	padding-top:6em;
+	padding-bottom:2em;
+	max-width:1380px;
+}
+
+
+
+
+
+.dokuwiki div.breadcrumbs {
+	
+	font: normal 85%/1.4 Arial,sans-serif;
+	position: fixed;
+    width: 100vw;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    background:#f6f6f6;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+
+#dokuwiki__header .pad.group{
+	
+	padding:5px 10px 5px 10px;
+	
+    max-width: 1300px;
+    margin: 0 auto;
+
+}
+
+#dokuwiki__usertools li a, #dokuwiki__usertools .user{
+	
+	padding:2px;	
+}
+
+#dokuwiki__pagetools div.tools ul {
+	background-color:white;
+	border:1px solid #aaaaaa;
+}
+
+
+/* Medienseite */
+#mediamgr__aside, #mediamgr__content {background-color:white;}
+
+
+/* Seitenleiste */
+.showSidebar #dokuwiki__aside {
+	width: 18.5em;
+    margin-right: -18.5em;
+    margin-left: -2.3em;
+}
+
+.showSidebar #dokuwiki__content {
+	
+	width:100%;
+	
+}
+
+
+#dokuwiki__aside .content {
+	/*background-color:rgba(255, 255,255, .95);*/
+	padding:10px;
+	margin-top:2em;
+	border-radius:2px;
+	/*box-shadow: 0 0 0.5em #999;*/
+	transition:350ms;
+}
+
+
+#dokuwiki__aside .content .group {
+    background: white;
+    padding-top: 1em;
+    padding-right:1px;
+    padding-left:5px;
+    border: 1px solid #aaaaaa;
+  
+
+}
+
+#dokuwiki__aside h1, #dokuwiki__aside h2, #dokuwiki__aside h3{
+	
+	/*border-left:6px solid rgba(173, 173, 173, 0.28);*/
+	font-size:1.125em;
+	background-color: rgba(212, 212, 212, 1) ;
+	padding-top:10px;
+	margin-top:20px;
+	padding-bottom:7px;
+	padding-left:15px;
+	margin-left:-10px !important;
+	margin-right:-10px !important;	
+}
+
+
+
+@media only screen and (max-width: 1020px) {
+	.bigbutton_toggle img {
+		width:30px !important;
+	}
+}
+
+/* Überschrift und Logo bei kleinen Bildschirmen entfernen */
+@media only screen and (max-width: 800px) {
+  .kkh_template_title {
+	display:none !important;
+  }
+  
+  #dokuwiki__header .headings {
+	width:0% !important;
+  }
+  
+  #dokuwiki__header .tools{
+	width:100% !important;
+  }
+  
+}
+
+@media only screen and (max-width: 1180px) {
+	#dokuwiki__header h1 span {
+		display:none;
+	}
+	
+	#dokuwiki__header .headings {
+		width:200px;
+	}
+	
+	body {
+		font: normal 85%/1.4 Arial,sans-serif;
+	}
+}
+
+
+
+/* Small button right side */
+.rightslider {
+	position: fixed;
+	width: 130px;
+	right: -130px;
+	height: 42px;
+	transition: right 0.2s ease-in-out;
+    z-index:11;
+}
+
+.rightslider:hover {right:0px;}
+
+.rightslider_toggle {
+	position: absolute;
+	right: 130px;
+	padding: 5px;
+	background:inherit;
+}
+
+.rightslider img {max-width:none;width:32px;}
+
+.kkh_toggle {
+	position: absolute;
+	left: 200px;
+	padding: 5px;
+	background:inherit;
+}
+
+.kkh_toggle img {max-width:none;width:32px;}
+
+.kkh_box {padding:10px;background:white}
+
+	
+/* AddnewPage Formularelemente */
+
+.addnewpage select.edit {
+	border:none;
+	background-color: #f3f3f3;
+	outline:none;
+	padding:0;
+}
+
+.addnewpage input.edit {
+	border-top:none;border-left:none;border-right:none;
+	border-radius:0;
+	outline:none;
+}
+
+.addnewpage input.button {
+	background: #f3f3f3;
+	border:1px solid white;
+	border-radius:0;
+}
+
+.addnewpage input.button:hover {
+	background: #f4f4f4;
+	border:1px solid gray;
+	color:black;
+}
+
+/**************************************/
+/* Formatierung der Suchergebnisseite */
+/**************************************/
+
+.search_fullpage_result .wikilink1 {
+	font-weight:bold;
+	font-size:130%;
+	color:SteelBlue !important;
+}
+
+.search_fullpage_result {
+	margin-bottom:20px;
+	border-bottom:1px solid lightgray;
+}
+
+.search_quickresult {
+	padding:10px;
+	border:1px solid LightSteelBlue;
+}
+
+.search_quickresult a {
+	font-weight:bold;
+	font-size:110%;
+	color:SteelBlue !important;
+}
+
+.search_quickresult ul li {
+	width:20em;
+}
+
+
+.nohome .branding {
+	width:360px;
+	
+	margin:0 auto;
+	position:fixed;
+	top:250px;
+	left:0;
+	right:0;
+	padding:5px;
+	
+	transform:scale(0);
+	animation:fadeout 0.9s;
+	background: white;
+    padding: 2em;
+    border-radius: 10px;
+    border: 3px solid #bbb;
+}
+
+
+
+.nohome .branding .logo {
+	margin-left:2em;
+	/*float:right;*/
+	max-height:60px;
+	
+}
+
+.nohome .branding .loader {
+	float:left;
+}
+
+.startpage .branding {display:none;}
+
+
+
+.startpage #dokuwiki__header {
+	box-shadow:none;
+	padding-bottom:0px;
+}
+
+
+@keyframes visiblein {
+	99% {visibility:hidden;}
+	100% {visibility:visible;}
+}
+
+
+@keyframes fadein {
+    0% { transform:scale(0); }
+    25% { transform:scale(0); }
+    100%{ transform:scale(1); }
+}
+
+
+@keyframes fadeout {
+    0% { transform:scale(0); }
+    30%{ transform:scale(1); }
+    90%{ transform:scale(1);}
+    100%{ transform:scale(0); }
+}
+
+
+
+.nohome .dokuwiki div.page{
+	border:1px solid #aaaaaa;
+}
+
+@keyframes rollin {
+    0% {
+		left:100vw;
+
+    }
+    
+  
+    100%   {
+	
+		left:0;
+	}
+}
+
+/******************************************/
+/* Approve-Plugin: Positionierung, Farben */
+/******************************************/
+
+#plugin__approve {
+	position:relative;
+	margin-bottom:8px;
+	margin-top:-10px;
+	margin-left:-15px;
+	margin-right:-15px;
+	font-size:11px;
+	max-width:80%;
+}
+
+.plugin__approve_red {
+  background-color: #feff98;
+  color: black;
+}
+
+.plugin__approve_green {
+  background-color: white;
+  color: #b8b8b8;
+}
+
+.plugin__approve_ready {
+  background-color: LightGreen ;
+  color:black;
+  border:2px solid black;
+}
+
+.plugin__approve_ready a{
+	font-size:12px;
+	text-transform: uppercase;
+	font-weight:bold;
+}
+
+
+/* Transparent Option for box-Wrap of the Wrap-Plugin
+ * Usage <WRAP box transparent> */
+
+.wrap_box.wrap_transparent {
+    background-color:rgba(255,255,255,0.8);
+}
+
+/*---------------------------------------------------------------------*/

@@ -1,0 +1,45 @@
+=====Institutional Member =====
+
+<form>
+action template wiki:reponse_Institutional_member "InstitutionalMember:@@institutional member name@@"
+Thanks "Thanks for submitting your valuable data."
+
+fieldset "Signatory head" 
+Textbox  "Name" 
+Textbox  "First name"  
+email  "Email"  
+Textbox  "Title" 
+Textbox  "Personnal website (if existing)" !
+Textarea  "Emails of departement chairs to be contacted" !
+
+fieldset "Institution Head (can be the signatory head)" 
+Textbox  "Name" 
+Textbox  "First name"  
+email  "Email"  
+Textbox  "Title" 
+Textbox  "Personnal website (if existing)" !
+
+fieldset "Your representative" 
+Textbox  "Name" 
+Textbox  "First name"  
+email  "Email"  
+Textbox  "Title" 
+Textbox  "Personnal website (if existing)" !
+
+fieldset "Institution" 
+Textbox  "Name" 
+Textbox  "Address line 1"  
+email  "Address line 2" !
+Textbox  "City" 
+Textbox  "State Province" 
+Textbox  "Zip/Postal code" 
+Textbox  "Country" 
+Textbox  "Website" 
+
+
+
+
+
+
+submit "Submit Query"
+</form>

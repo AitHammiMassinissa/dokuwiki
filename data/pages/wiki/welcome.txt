@@ -1,0 +1,11 @@
+====== Formulaires CSDC ======
+Séléctionnez votre formulaire à remplir:
+
+[[fr:Formulaire Individual member]] \\
+[[fr:fr:Formulaire Institutional member]]\\
+[[fr:fr:Formulaire Committee]]\\
+[[fr:fr:Formulaire Community]]\\
+[[fr:fr:Formulaire Territorial community]]\\
+
+
+[[SendEmail]]

@@ -1,0 +1,26 @@
+
+=====Territorial community =====
+<form>
+action template wiki:reponse_Territorial_community "Territorial Community:s"
+Thanks "Thanks for submitting your valuable data."
+
+Fieldset "Territorial community"
+Textbox  "territorial community name"  "=s"
+Textbox  "territorial hyperlink" "=s"
+Textbox  "territorial challenge" "=s"
+Textarea "downward communities" "=s"
+
+Textarea  "texte 1" "=s"
+file  "image 1" "=@@image 1@@"
+Textarea  "texte 2" ! "=@@texte 2@@"
+file  "image 2" ! 
+Textarea  "texte 3" ! "=@@texte 3@@"
+file  "image 3" ! 
+
+
+fieldset "agreement"
+
+yesno "Read the agreement?"
+textbox "You need to write 'agree' here" /^agree$/
+submit "Submit Query"
+</form>

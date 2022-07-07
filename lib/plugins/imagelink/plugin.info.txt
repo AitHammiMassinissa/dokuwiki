@@ -1,0 +1,7 @@
+base    imagelink
+author  peterfromearth.de
+email   coder@peterfromearth.de
+date    2020-02-29
+name    Image Link Plugin
+desc    create image links with caption
+url     https://www.dokuwiki.org/plugin:imagelink

@@ -1,0 +1,50 @@
+<form>
+action template wiki:reponse_Individual_member "IndividualMember:c"
+Thanks "Thanks for submitting your valuable data."
+Textarea "Individual member" "=c"
+textarea  "personal commitment" "=c"
+Textarea "research and teaching challenges" "=@@Iresearch and teaching challenges@@"
+Fieldset  "personal data" 
+=="individual registration"==
+Textbox  "n° IP smartphone(Read)" "=0749280010"
+number "Phone number" "=0749280010"
+Textarea  "visit history" "=c"
+email  "email" "=ghitaeh58@gmail.com"
+password  "password" "=sdkjl"
+email  "Regular mail" "=ghitaeh58@gmail.com"
+Fieldset "Contacts" 
+Textarea "Individual contact" "=c"
+Textarea "Institutional contacts" "=c"
+Fieldset "Individual registration" 
+Textbox "first names" "=GHITA"
+TextBoX "Last names" "=EL-HACHAMI"
+Textarea "short name" "=a"
+TextBox "main title" "=a"
+Textarea "personal webpages" "=a"
+Textarea "Hyperlink" "=a"
+Textarea "institutional memberships"  "=ss"
+Textbox "organisational commitments" "=x"
+
+Textbox  "all messages" "=x"
+Textbox   "contacts" "=x"
+Textbox "institutional contacts" "=c"
+
+
+fieldset "agreement"
+
+yesno "Read the agreement?"
+textbox "You need to write 'agree' here" /^agree$/
+submit "Submit Query"
+</form>
+
+
+
+
+
+
+
+
+
+
+
+

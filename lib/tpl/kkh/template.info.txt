@@ -1,0 +1,7 @@
+base     kkh
+author   Gero Gothe
+email    practical@medizin-lernen.de
+date     2020-11-30
+name     KKH Template
+desc     Configurable template based on the standard dokuwiki-template.
+url      https://www.dokuwiki.org/template:kkh

@@ -1,0 +1,19 @@
+<form>
+action template wiki:reponse_Community "Community:c"
+Thanks "Thanks for submitting your valuable data."
+
+Fieldset "Community"
+Textarea  "upward communities" "=c"
+Textbox  "community name" "=c"
+Textbox  "community hyperlink" "=c"
+Textbox  "community title" "=c"
+Textarea  "sub-challenges" "=c"
+Textarea "downward communities" "=v"
+
+
+fieldset "agreement"
+
+yesno "Read the agreement?"
+textbox "You need to write 'agree' here" /^agree$/
+submit "Submit Query"
+</form>

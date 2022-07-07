@@ -1,0 +1,18 @@
+<form>
+action   template Response "Institutional_member:@@institutional member@@"
+Thanks "Thanks for submitting your valuable data."
+
+Textbox "Institutional member" "=@@Institutional member@@"
+Textbox  "institutional member name" "=bw?Nbw,xnvb" 
+Textbox  "institutional member short name@@"  "=v;,xwnv,nw" 
+Textbox  "commitment letter"  "=w,xvn;,xwnv" 
+Textbox  "challenge" "=wNV,;wnxv" 
+Textbox  "institutional committee" "=w;vnw;,xnv;,w" 
+Textbox  "institutional associated members" "=wx;vn;,xwnv;,wn" 
+
+fieldset "agreement"
+
+yesno "Read the agreement?"
+textbox "You need to write 'agree' here" /^agree$/
+submit "Submit Query"
+</form>

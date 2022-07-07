@@ -1,0 +1,323 @@
+
+	
+		#header input#s, #qsearch__in {
+			width:168px;
+			box-shadow:inset 1px 1px 5px 1px rgba(0, 0, 0, .1);
+			text-indent: 0;
+		}
+	
+	
+		.post.onecol .entry-header {
+			float:left;
+			width:27.6%;
+		}
+		.post.onecol .entry-summary {
+			float:right;
+			width:69.5%;
+		}
+		.post.onecol .wp-post-image,
+		.post.onecol .entry-attachment,
+		.post.onecol .post-gallery {
+			float:right;
+			max-width:69.5%;
+		}
+		.post.onecol .entry-attachment,
+		.post.onecol .post-gallery {
+			width:69.5%;
+		}
+		.twocol .entry-title,
+		.threecol .entry-title,
+		.fourcol .entry-title {
+			margin: 0;
+			text-align: center;
+		}
+		@media screen and (max-width: 960px) {
+			.post.onecol .wp-post-image,
+			.post.onecol .entry-attachment,
+			.post.onecol .post-gallery {
+				float:none;
+				max-width:100%;
+				margin:0;
+			}
+			.post.onecol .entry-attachment,
+			.post.onecol .post-gallery {
+				width:100%;
+			}
+			.post.onecol .entry-header,
+			.post.onecol .entry-summary {
+				float:none;
+				width:auto;
+			}
+		}
+	
+		/*
+		@media screen and (max-width: 760px) {
+			#sidebar {
+				display: none;
+			}
+		}
+	
+	
+		@media screen and (max-width: 760px) {
+			#footer-area {
+				display: none;
+			}
+		}
+	
+	
+		#wrapper {
+			background: ;
+		}
+	
+	
+		#header {
+			border-color: ;
+		}
+		#access {
+			background: ;
+		}
+		@media screen and (max-width: 760px) {
+			#access {
+				background: none;
+			}
+		}
+	
+	
+		#access li li {
+			background: ;
+		}
+	
+	
+		#sidebar-wide,
+		#sidebar-footer-wide,
+		#current-location {
+			background: ;
+		}
+	
+	
+		.entry,
+		#comments,
+		#respond,
+		#posts-nav {
+			background: ;
+		}
+	
+	
+		.home .entry-meta,
+		.blog .entry-meta,
+		.archive .entry-meta,
+		.search .entry-meta {
+			background: ;
+		}
+	
+	
+		#footer-area {
+			background: ;
+		}
+	
+	
+		#copyright {
+			background: ;
+		}
+	
+	
+		body,
+		#slider .entry-title,
+		.page-title,
+		#sidebar-wide .widget-title,
+		#sidebar-boxes .widget-title,
+		#sidebar-footer-wide .widget-title {
+			font-family:;
+		}
+		h1, h2, h3, h4, h5, h6,
+		#site-title,
+		#site-description,
+		.entry-title,
+		#comments-title,
+		#reply-title,
+		.widget-title {
+			font-family:;
+		}
+		.entry-content {
+			font-family:;
+		}
+	
+		
+			h1, h2, h3, h4, h5, h6 {
+				font-family:;
+			}
+		
+		
+			.entry-content {
+				font-family:;
+			}
+		
+	
+	
+		body {
+			font-size:;
+			line-height:;
+		}
+	
+		body {
+			line-height:;
+		}
+	
+	
+		h1,
+		.single .entry-title,
+		.page .entry-title,
+		.error404 .entry-title {
+			font-size:;
+			line-height:;
+		}
+	
+	
+		h2,
+		.entry-title {
+			font-size:;
+			line-height:;
+		}
+	
+	
+		h3,
+		.twocol .entry-title,
+		.threecol .entry-title {
+			font-size:;
+			line-height:;
+		}
+	
+	
+		h4,
+		.fourcol .entry-title {
+			font-size:;
+			line-height:;
+		}
+	
+	
+		h1, h2, h3, h4, h5, h6 {
+			line-height:;
+		}
+	
+	
+		.entry-content {
+			font-size:;
+			line-height:;
+		}
+		@media screen and (max-width: 640px) {
+			.entry-content {
+				font-size:;
+				line-height:;
+			}
+		}
+	
+		.entry-content {
+			line-height:;
+		}
+		@media screen and (max-width: 640px) {
+			.entry-content {
+				font-size:;
+				line-height:;
+			}
+		}
+	
+		@media screen and (max-width: 640px) {
+			.entry-content {
+				font-size:;
+				line-height:;
+			}
+		}
+	
+		@media screen and (max-width: 640px) {
+			.entry-content {
+				line-height:;
+			}
+		}
+	
+	
+		body {
+			color:;
+		}
+		h1, h2, h3, h4, h5, h6,
+		.entry-title,
+		.entry-title a {
+			color:;
+		}
+		.entry-content {
+			color:;
+		}
+	
+		
+			h1, h2, h3, h4, h5, h6,
+			.entry-title,
+			.entry-title a {
+				color:;
+			}
+		
+		
+			.entry-content {
+				color:;
+			}
+		
+	
+	
+		a {
+			color:;
+		}
+	
+	
+		a:hover {
+			color:;
+		}
+	
+	
+		#access a {
+			color:;
+		}
+	
+	
+		#access a:hover,
+		#access li.current_page_item > a,
+		#access li.current-menu-item > a {
+			color:;
+		}
+	
+	
+		#sidebar,
+		#sidebar-left,
+		#sidebar-right {
+			color:;
+		}
+	
+	
+		.widget-title {
+			color:;
+		}
+	
+	
+		.widget-area a {
+			color:;
+		}
+	
+	
+		#footer-area {
+			color:;
+		}
+	
+	
+		#footer-area .widget-title {
+			color:;
+		}
+	
+	
+		#copyright {
+			color:;
+		}
+	
+	
+		#copyright a {
+			color:;
+		}
+		*/
+	
+	

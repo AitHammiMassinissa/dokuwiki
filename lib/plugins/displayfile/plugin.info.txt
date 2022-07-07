@@ -1,0 +1,19 @@
+base   displayfile
+author Jay Jeckel
+email  jeckelmail@gmail.com
+date   2021-01-28
+name   Display File Plugin
+desc   The Display File Plugin displays the content of a specified file on the local system using a ''displayfile'' element.
+url    https://www.dokuwiki.org/plugin:displayfile
+compatible   Elenor of Tsort, Frusterick Manners, Greebo, Hogfather
+depends
+conflicts
+similar      showfile, source, src
+tags         code, display, file, include, syntaxhighlight
+
+downloadurl  https://gitlab.com/JayJeckel/displayfile/-/archive/master/displayfile-master.zip
+bugtracker   https://gitlab.com/JayJeckel/displayfile/issues
+sourcerepo   https://gitlab.com/JayJeckel/displayfile/
+donationurl
+
+screenshot_img

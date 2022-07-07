@@ -1,0 +1,208 @@
+/**
+ * This file provides styles for the general layout structure.
+ */
+
+/*____________ Header ____________*/
+/* title, logo, tagline */
+
+#dokuwiki__header {
+	background: hsla(0,0%,100%,0.5);
+	
+    h1 {
+        margin: 0;
+        font-size: 1.5em;
+        font-weight: normal;
+		text-align: center;
+
+        img {
+        margin: .5em;
+	    max-width:90%;
+        max-height: 6em;
+        }
+
+        span {
+            display: block;
+            padding-top: 10px;
+        }
+
+        a {
+            text-decoration: none;
+            color: @ini_text;
+            background-color: inherit;
+        }
+    }
+
+    p.claim {
+        font-size: 0.875em;
+		text-align: center;
+		display:inline;
+		margin: 0 auto;
+		padding: .1em .5em 1em;
+		/*background-color: @ini_background;
+		border-radius: 5px;*/
+    }
+}
+
+.headings {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+/*____________ dokuwiki__content not in "read" mode ____________*/
+
+#dokuwiki__content {
+	max-width: 100% ;
+}
+
+/*____________ dokuwiki__site ____________*/
+/* Sidebar+Article+tools */
+
+#dokuwiki__site {
+    margin: 0 auto;
+}
+
+#dokuwiki__site > .site {
+    padding: 0 .5em;
+}
+
+#dokuwiki__site .wrapper {
+    position: relative;
+    padding-top: 1.2em;
+	display:flex;
+	justify-content: center;
+}
+
+
+/*____________ Sidebar ____________*/
+#dokuwiki__sidebar {
+    width: @ini_sidebar_width;
+    display: block;
+}
+
+/* If sidebar or not sidebar, content make same width */
+.showSidebar .mode_show #dokuwiki__content, .mode_show #dokuwiki__content {
+	max-width: @ini_article_width;
+	min-width:30em;
+}
+
+.showSidebar #dokuwiki__content, #dokuwiki__content {
+    width: 100%;
+	margin: 0 1em;
+}
+
+/* Details of sidebar */
+
+.dokuwiki .sidebar {
+    font-size: 0.875em;
+    overflow: hidden;
+    word-wrap: break-word;
+    background-color: @ini_background ;
+    padding:0em 1em 0em 1em;
+	display:flex;
+	/*box-shadow: 0 1.2em .5em @ini_text_alt;*/
+	
+    /* make sidebar more condensed */
+    h1 {
+        font-size: 1.714em;
+        margin-bottom: .292em;
+    }
+	
+    h2 {
+        margin-bottom: .333em;
+    }
+
+    h3 {
+        margin-bottom: .444em;
+    }
+
+    h4 {
+        margin-bottom: .5em;
+    }
+
+    h5 {
+        margin-bottom: .5714em;
+    }
+
+    p,
+    ul,
+    ol,
+    dl,
+    pre,
+    table,
+    fieldset,
+    blockquote,
+    address {
+        margin-bottom: .7em;
+    }
+
+    ul,
+    ol {
+        padding-left: .5em;
+    }
+
+    li ul,
+    li ol {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    a {
+		text-decoration:none;
+    }
+	a.wikilink2 {
+    text-decoration: underline dashed;
+	}
+}
+
+[dir=rtl] .dokuwiki .sidebar ul,
+[dir=rtl] .dokuwiki .sidebar ol {
+    padding-right: .5em;
+}
+
+
+/*____________ Footer ____________*/
+
+.dokuwiki .wrapper {
+    margin-bottom: 1.4em;
+}
+
+#dokuwiki__footer {
+    margin-bottom: 1em;
+    text-align: center;
+
+    > .pad {
+        font-size: 0.875em;
+    }
+
+    div.license {
+        margin-bottom: 0.5em;
+        font-size: 100%;
+    }
+
+    div.buttons a {
+        img {
+            opacity: 0.5;
+        }
+
+        &:hover img,
+        &:active img,
+        &:focus img {
+            opacity: 1;
+        }
+    }
+
+}
+
+[dir=rtl] #dokuwiki__footer .license img {
+    margin: 0 0 0 .5em;
+}
+
+#dokuwiki__footer {
+    clear: both;
+}
+
+/* license note under edit window */
+.dokuwiki div.license {
+    font-size: 93.75%;
+}

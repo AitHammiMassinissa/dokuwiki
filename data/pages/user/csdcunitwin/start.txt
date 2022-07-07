@@ -1,0 +1,7 @@
+<form>
+action mail @@email_address@@
+Fieldset "Some Information"
+Textbox "Employee Name"
+email Email_Address
+submit   "submit"
+</form>

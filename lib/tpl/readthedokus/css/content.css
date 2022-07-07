@@ -1,0 +1,285 @@
+#dokuwiki__site > div.wrapper
+{
+	max-width: __width_site__;
+	margin: 0 auto;
+}
+
+#dokuwiki__site > div.wrapper.group
+{
+	display: flex;
+}
+
+#dokuwiki__site.rightSidebar > div.wrapper.group
+{
+	flex-direction: row-reverse;
+}
+
+#dokuwiki__content
+{
+	flex: 1;
+	margin-left: __width_sidebar__;
+	min-height: 100%;
+	min-width: 0;
+}
+
+#dokuwiki__site:not(.showSidebar) #dokuwiki__content
+{
+	margin-left: 0;
+}
+
+#dokuwiki__site.rightSidebar #dokuwiki__content
+{
+	margin-left: 0;
+	margin-right: __width_sidebar__;
+}
+
+#dokuwiki__content > .group
+{
+	padding: 1.618em 3.236em;
+	height: 100%;
+	margin: 0;
+	background-color: __background__;
+}
+
+.mode_show #dokuwiki__content > .group
+{
+	max-width: __width_content__;
+}
+
+#dokuwiki__site.rightSidebar.mode_show #dokuwiki__content > .group
+{
+	margin-left: auto;
+}
+
+#dokuwiki__content img.media {
+		max-width: 100%
+}
+
+#dokuwiki__content .page p
+{
+	line-height: 24px;
+	margin: 0 0 24px;
+}
+
+#dokuwiki__content .page ul,ol
+{
+	line-height: 24px;
+	margin-bottom: 24px;
+}
+
+.ui-dialog
+{
+	padding: 0;
+	border-radius: 0 !important;
+}
+
+.ui-widget-header
+{
+	border: none !important;
+	border-radius: 0 !important;
+}
+
+.ui-dialog .ui-dialog-content
+{
+	/* padding: 10px !important; */
+}
+
+.ui-dialog .ui-dialog-content > div:first-child
+{
+	padding: 0 10px;
+}
+
+#link__wiz input
+{
+	border: none;
+}
+
+#link__wiz_result
+{
+	border: none !important;
+}
+
+#link__wiz_result div a
+{
+	font-size: 90%;
+	line-height: 24px;
+}
+
+#link__wiz_result div a
+{
+	padding-left: 27px;
+}
+
+#link__wiz_result span
+{
+	font-size: 70%;
+	margin-left: 25px;
+}
+
+#link__wiz_result .type_u,
+#link__wiz_result .type_d,
+#link__wiz_result .type_f
+{
+	height: 45px;
+}
+
+#link__wiz_result div.even
+{
+	background-color: __background_alt__;
+}
+
+#link__wiz_result > div:first-child
+{
+	border-top: dotted 1px lightgray;
+}
+
+#link__wiz_result > div
+{
+	border-bottom: dotted 1px lightgray;
+}
+
+#link__wiz_result > div:hover
+{
+	background-color: pink;
+}
+
+.dokuwiki .search_fullpage_result
+{
+	margin-bottom: 40px;
+}
+
+.dokuwiki dl.search_results dt
+{
+	font-weight: bold;
+    font-size: 120%;
+}
+
+.dokuwiki dl.search_results dd.meta
+{
+	color: #777;
+	font-size: 90%;
+    margin-bottom: .5em;
+}
+
+.dokuwiki dl.search_results dd.snippet
+{
+	color: #404040;
+	font-size: 90%;
+	line-height:24px;
+}
+
+.dokuwiki .search-results-form fieldset.search-form
+{
+	border: none;
+	padding: 0;
+}
+
+.dokuwiki .search-results-form fieldset.search-form input[name="q"]
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.dokuwiki .search-results-form fieldset.search-form button.toggleAssistant {
+    margin-bottom: 30px;
+}
+
+/* Admonition */
+
+.admonition
+{
+	margin-bottom: 24px;
+	padding-bottom: 1px;
+}
+
+.admonition p
+{
+	padding: 12px;
+	margin-bottom: 0 !important;
+}
+
+.admonition ul:first-child
+{
+	margin: 12px 0 12px 0 !important;
+}
+
+.admonition:before
+{
+	display: block;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 0 !important;
+	padding: 6px 12px;
+}
+
+.admonition.caution:before,
+{
+	background-color: #f0b37e;
+	content: "\f06a\00a0 Caution";
+}
+
+.admonition.caution,
+{
+	background-color: #ffedcc;
+}
+
+.admonition.danger:before,
+{
+	background-color: #f29f97;
+	content: "\f06a\00a0 Danger";
+}
+
+.admonition.danger,
+{
+	background-color: #fdf3f2;
+}
+
+.admonition.tip:before
+{
+	background-color: #1abc9c;
+	content: "\f06a\00a0 Tip";
+}
+
+.admonition.tip
+{
+	background-color: #dbfaf4;
+}
+
+.admonition.note:before
+{
+	background-color: #6ab0de;
+	content: "\f06a\00a0 Note";
+}
+
+.admonition.note
+{
+	background-color: #e7f2fa;
+}
+
+@media (max-width: __media_query_sp__)
+{
+
+	#dokuwiki__content
+	{
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+
+	#dokuwiki__site.showSidebarSP #dokuwiki__content
+	{
+		position: fixed;
+		left: 85%;
+	}
+
+	#dokuwiki__site.showSidebarSP.rightSidebar #dokuwiki__content
+	{
+		left: auto;
+		right: 85%;
+	}
+
+	#dokuwiki__content > .group
+	{
+		padding: 1.6em;
+	}
+
+}

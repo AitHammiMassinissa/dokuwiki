@@ -1,0 +1,9 @@
+<div id="sidebarheader">
+	<div class="home">
+		<a href="<?php echo tpl_getConf('startpage'); ?>">
+			<i class="fas fa-home"></i> <?php global $conf; echo $conf["title"] ?>
+		</a>
+	</div>
+	<?php tpl_searchform() ?>
+	<?php tpl_includeFile('sidebarheader.html') ?>
+</div>

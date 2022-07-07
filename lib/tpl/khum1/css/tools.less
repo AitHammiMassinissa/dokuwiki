@@ -1,0 +1,132 @@
+/**
+* This file is for tools : usertools, pagetools, usertools, search. And tools.
+So, navbar too, and breadcrumbs.
+**/
+/*____________ Navtool ____________*/
+
+
+.navtool {
+	width: @ini_navtool_width;
+	display: flex;
+	flex-direction: column;
+	margin-top: 3.5em;
+	font-size: .875em;
+	position: sticky;
+	top: 1em;
+}
+
+.bartool {
+	background-color: @ini_background;
+	padding: 0 1em;
+	
+		hr {
+			margin:1em 0;
+		}
+	
+}
+
+/*____________ Usertools ____________*/
+/* Link to Connexion, userpage, administration, profil */
+
+.dokuwiki__tools ul {
+        margin: 0 auto;
+        padding: 0;
+		color: @ini_link;
+		
+}
+
+.dokuwiki__tools {
+	li {
+		list-style: none;
+		margin: 0;
+	}
+	li a {
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: end;
+		
+		span {
+			margin-left: 3px;
+		}
+	}
+	
+	.user {
+		display: flex;
+		span {
+			margin-right: 0.3em;
+			margin-bottom: 0.5em;
+		}
+	}
+}
+
+
+/* highlight selected tool */
+.mode_admin a.action.admin,
+.mode_login a.action.login,
+.mode_register a.action.register,
+.mode_profile a.action.profile,
+.mode_recent a.action.recent,
+.mode_index a.action.index,
+.mode_media a.action.media,
+.mode_revisions a.action.revs,
+.mode_backlink a.action.backlink,
+.mode_subscribe a.action.subscribe {
+    font-weight: bold;
+}
+
+/*____________ Search ____________*/
+/* juste the tool in navbar ; result search are in _search.css */
+
+.dokuwiki div.searchtool {
+    /*float: right;*/
+    /*width: 29%;*/
+}
+
+form.search {
+    display: block;
+    margin-bottom: 0.5em;
+    input {
+        padding: .35em;
+		max-width: 100%;
+    }
+
+    button {
+        background: transparent url(images/search.png) no-repeat 0 0;
+        border-width: 0;
+        width: 19px;
+        height: 14px;
+        text-indent: -99999px;
+        margin-left: -20px;
+        box-shadow: none;
+        padding: 0;
+    }
+}
+
+[dir=rtl] form.search {
+    input {
+        padding: .35em .1em .35em 22px;
+    }
+
+    button {
+        background-position: 5px 0;
+        margin-left: 0;
+        margin-right: -20px;
+        position: relative;
+    }
+}
+
+/*____________ Pagetools ____________*/
+/* Menu tools to edit, history, etc */
+
+.to_top {
+	position: fixed;
+    z-index: 101;
+    bottom: 1em;
+	background-color: @ini_background;
+	padding: 0.3em;
+	
+	img {
+		max-width : 1.5em;
+	}
+
+}

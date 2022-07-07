@@ -1,0 +1,26 @@
+====== Mail template page ======
+
+<code html>
+Dear @@Your Name@@,
+
+You are <b>great<b>, you just <i>purchased</i> our @@What do you want@@!
+
+We will deliver it fast as possible, see the 
+<a href="http://example.com/conditions">conditions</a>.
+
+Kind regards,
+Future Machines company
+</code>
+
+<code text>
+Dear @@Your Name@@,
+
+You are great, you just purchased our @@What do you want@@!
+
+We will deliver it fast as possible, see [1].
+
+Kind regards,
+Future Machines company
+
+[1] http://example.com/conditions
+</code>

@@ -1,0 +1,400 @@
+/**
+ * This file provides the most basic styles.
+ *
+ * If you integrate DokuWiki into another project, you might either
+ * want to integrate this file into the other project as well, or use
+ * the other project's basic CSS for DokuWiki instead of this one.
+ *
+ * @author Anika Henke <anika@selfthinker.org>
+ */
+
+/*____________ Add font ____________*/
+/* Not in use for now. TODO. Probably useful for pagetool and other icons.
+@font-face {
+  font-family: 'ForkAwesome';
+  src: url('./fonts/forkawesome-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}*/
+/*____________ Reset some default css ____________*/
+
+html,body {
+    /*overflow-x: auto;
+    overflow-y: scroll;*/
+	margin: 0;
+    padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	/*position:absolute;*/
+    width:100%;
+}
+
+/*____________ Body ____________*/
+body {
+	background-size: contain, contain, auto; /* version standardisée */
+	background: url("images/curve2.png") repeat-y fixed left bottom, url("images/curve.png") repeat-y fixed right bottom;
+	background-color: @ini_color7 ;
+	color: @ini_text;
+	/*font: normal 87.5%/1.4 Arial, sans-serif;*/
+	font-family: BlinkMacSystemFont,-apple-system,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Helvetica","Arial",sans-serif;
+	margin: 0 auto;
+}
+
+
+
+/*____________ headers ____________*/
+
+caption,
+figcaption,
+summary,
+legend {
+    padding: 0;
+    margin: 0 0 .35em;
+    line-height: 1.2;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Arial,sans-serif;
+    font-weight: bold;
+    padding: 0;
+    line-height: 1.2;
+    clear: left; /* ideally 'both', but problems with toc */
+}
+[dir=rtl] h1,
+[dir=rtl] h2,
+[dir=rtl] h3,
+[dir=rtl] h4,
+[dir=rtl] h5,
+[dir=rtl] h6 {
+    clear: right;
+}
+
+/* bottom margin = 1 / font-size */
+
+
+/*____________ basic margins and paddings ____________*/
+
+p,
+ul,
+ol,
+dl,
+pre,
+table,
+hr,
+blockquote,
+figure,
+details,
+fieldset,
+address {
+    margin: 0 0 1.4em 0; /* bottom margin = line-height */
+    padding: 0;
+}
+
+div,
+video,
+audio {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*____________ lists ____________*/
+
+ul,
+ol {
+    padding: 0 0 0 1.5em;
+}
+[dir=rtl] ul,
+[dir=rtl] ol {
+    padding: 0 1.5em 0 0;
+}
+
+li,
+dd {
+    padding: 0;
+    margin: 0 0 0 1.5em;
+}
+[dir=rtl] li,
+[dir=rtl] dd {
+    margin: 0 1.5em 0 0;
+}
+dt {
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+li ul,
+li ol,
+li dl,
+dl ul,
+dl ol,
+dl dl {
+    margin-bottom: 0;
+    padding: 0;
+}
+li li {
+    font-size: 100%;
+}
+
+ul             { list-style: square outside; }
+ol             { list-style: decimal outside; }
+ol ol          { list-style-type: lower-alpha; }
+ol ol ol       { list-style-type: upper-roman; }
+ol ol ol ol    { list-style-type: upper-alpha; }
+ol ol ol ol ol { list-style-type: lower-roman; }
+
+
+/*____________ links ____________*/
+
+a {
+	color: @ini_link;
+}
+a:link,
+a:visited {
+    text-decoration: underline dotted;
+}
+a:link:hover,
+a:visited:hover,
+a:link:focus,
+a:visited:focus,
+a:link:active,
+a:visited:active {
+    text-decoration: underline;
+}
+
+
+/*____________ misc ____________*/
+
+img {
+    border-width: 0;
+    vertical-align: middle;
+    color: @ini_neutral1;
+    background-color: transparent;
+    font-style: italic;
+    height: auto;
+}
+video {
+    height: auto;
+}
+img,
+object,
+embed,
+iframe,
+video,
+audio {
+    max-width: 100%;
+}
+
+
+hr {
+    border: 1px solid @ini_neutral2;
+    text-align: center;
+    clear: both;
+}
+
+acronym,
+abbr {
+    cursor: help;
+    border-bottom: 1px dotted;
+    font-style: normal;
+}
+em acronym,
+em abbr {
+    font-style: italic;
+}
+
+mark {
+    background-color: @ini_highlight;
+    color: inherit;
+}
+
+pre,
+code,
+samp,
+kbd {
+    font-family: Consolas, "Andale Mono WT", "Andale Mono", "Bitstream Vera Sans Mono", "Nimbus Mono L", Monaco, "Courier New", monospace;
+    /* same font stack should be used for ".dokuwiki table.diff td" in _diff.css */
+    font-size: 1em;
+    direction: ltr;
+    text-align: left;
+    background-color: @ini_background;
+    color: @ini_text;
+    box-shadow: inset 0 0 .3em @ini_border;
+    border-radius: 2px;
+}
+pre {
+    overflow: auto;
+    word-wrap: normal;
+    border: 1px solid @ini_border;
+    border-radius: 2px;
+    box-shadow: inset 0 0 .5em @ini_border;
+    padding: .7em 1em;
+}
+
+blockquote {
+    padding: 0 .5em;
+    border: solid @ini_border;
+    border-width: 0 0 0 .25em;
+}
+[dir=rtl] blockquote {
+    border-width: 0 .25em 0 0;
+}
+q:before,
+q:after {
+    content: '';
+}
+
+sub,
+sup {
+    font-size: .8em;
+    line-height: 1;
+}
+sub {
+    vertical-align: sub;
+}
+sup {
+    vertical-align: super;
+}
+
+small {
+    font-size: .8em;
+}
+
+/*____________ forms ____________*/
+
+/* for all of the form styles, style.ini colours are not used on purpose (except for fieldset border) */
+
+form {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    padding: .7em 1em 0;
+    padding: .7rem 1rem; /* for those browsers understanding :last-child */
+    border: 1px solid @ini_text_alt;
+}
+
+
+fieldset > :last-child {
+    margin-bottom: 0;
+}
+legend {
+    margin: 0;
+    padding: 0 .1em;
+}
+label {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+input,
+textarea,
+select,
+optgroup,
+option,
+keygen,
+output,
+meter,
+progress {
+    font: inherit;
+    font-weight: normal;
+    color: @ini_neutraldark;
+    background-color: @ini_neutrallight;
+    line-height: normal;
+    margin: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+select {
+    max-width: 100%;
+}
+optgroup {
+    font-style: italic;
+    font-weight: bold;
+}
+option {
+    font-style: normal;
+    font-weight: normal;
+}
+
+input,
+textarea,
+select,
+keygen {
+    border: 1px solid @ini_neutral3;
+    box-shadow: inset 0 0 1px @ini_neutral4;
+    border-radius: 2px;
+}
+input:active,
+input:focus,
+textarea:active,
+textarea:focus,
+select:active,
+select:focus,
+keygen:active,
+keygen:focus {
+    border-color: @ini_neutral2;
+}
+input[type=radio],
+input[type=checkbox],
+input[type=image] {
+    padding: 0;
+    border-style: none;
+    box-shadow: none;
+}
+
+/* all types of buttons */
+
+
+input::-moz-focus-inner,
+button::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+input[disabled],
+button[disabled],
+select[disabled],
+textarea[disabled],
+option[disabled],
+input[readonly],
+button[readonly],
+select[readonly],
+textarea[readonly] {
+    cursor: auto;
+    opacity: .5;
+    background-color: @ini_neutral4;
+}
+
+button img {
+    max-width: none;
+}
+
+button {
+    font: inherit;
+    font-weight: normal;
+    color: @ini_neutraldark;
+    background-color: @ini_neutral4;
+    line-height: normal;
+    margin: 0;
+    vertical-align: middle;
+    box-sizing: border-box;
+	border: outset @ini_neutral4;
+}
+button:hover {
+	border-color: @ini_neutraldark;
+	font-weight: bold;
+}
+button:active {
+	color: @ini_neutral4;
+    background-color: @ini_neutraldark;
+	font-weight: bold;
+}

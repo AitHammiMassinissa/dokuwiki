@@ -1,0 +1,10 @@
+
+
+<form>
+Fieldset "Some Information"
+Textbox "Employee Name"
+email Email_Address
+  
+Action mail @@email_address@@
+submit "Submit Query"
+</form>

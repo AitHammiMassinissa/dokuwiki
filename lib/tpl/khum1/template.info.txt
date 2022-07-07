@@ -1,0 +1,7 @@
+base     khum1
+author   Zatalyz
+email    zatalyz.khum1@liev.re
+date     2020-10-06
+name     khum1 DokuWiki Template
+desc     Generic template for Khaganat project ( https://khaganat.net ). Support a lot of plugin. Try to be responsive and accessible.
+url      https://git.khaganat.net/khaganat/web/dokuwiki/khum1

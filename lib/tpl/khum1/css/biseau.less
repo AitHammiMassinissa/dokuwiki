@@ -1,0 +1,83 @@
+/**
+ * A lot of biseau (why we say in english ?). Stupid ornemental. Special Khaganat
+ * way of life.
+ * If you don't like it, just erase this file.
+ */
+
+
+.biseau_2_top {
+	border-style : solid;
+	border-color : transparent transparent @ini_background transparent;
+	border-width : 1.5em; 
+}
+
+.biseau_2_bottom {
+	border-style : solid;
+	border-color : @ini_background transparent transparent transparent;
+	border-width : 1.5em; 
+	margin-bottom: -1em;
+}
+
+.biseau_right_top {
+	border-style : solid;
+	border-color : transparent transparent @ini_background transparent;
+	border-width : 0 1.5em 1.5em 0;
+}
+
+.biseau_left_top {
+	border-style : solid;
+	border-color : transparent transparent @ini_background transparent;
+	border-width : 0 0 1.5em 1.5em;
+}
+
+.biseau_right_bottom {
+	border-style : solid;
+	border-color : @ini_background transparent transparent transparent;
+	border-width : 1.5em 1.5em 0 0;
+	margin-bottom: 1em;
+}
+
+.biseau_left_bottom {
+	border-style : solid;
+	border-color : @ini_background transparent transparent transparent;
+	border-width : 1.5em 0 0 1.5em;
+}
+
+/*____________ Spécial onglets ____________*/
+
+.tab_ul {
+	li {
+		text-align: center;
+		display: inline-block;
+		padding: 0;
+		width: 9em;
+		font: 80%;
+		
+		span {
+			padding:0.1em;
+			margin-top: -1.7em;
+			/*border-bottom: 1px solid @ini_neutral2;
+			 pour span actif : passer à -1.6em.*/
+		}
+	}
+}
+
+.tab_ul li.current_page span {
+	border-bottom:none;
+}
+
+.toptab {
+	border-style : solid;
+	border-color : transparent transparent @ini_background_neu transparent;
+	border-width : 0 1.5em 1.5em 0;
+	position:relative;
+	z-index: -1;
+}
+
+.toptab_current_page {
+	border-style : solid;
+	border-color : transparent transparent @ini_background transparent;
+	border-width : 0 1.5em 1.5em 0;
+	
+
+}

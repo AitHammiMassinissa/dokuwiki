@@ -1,0 +1,71 @@
+GROUPMANAGER
+========
+
+GROUPMANAGER is based on the original plugin GROUPMGR by Alex Forencich. This plugin has
+not been updated since 2010. It actually even never left the devel-zone, but the idea is
+great!
+
+GROUPMGR already allowed easy modification of group membership by non-admins.
+This greatly simplified management of collaborative projects by group-admins.
+
+GROUPMANAGER adds in functionality from the usermanager by Christopher Smith. This way
+existing users can easily be found and added to groups in Wikis with many users.
+Groupmanager may also enable group-admins to add and delete users independently from a
+super user, if these users belong to the groups they administer.
+
+GROUPMANAGER has been designed with a certain scenario and setup in mind.
+This scenario is helpful to make Groupmanager a workable solution.
+That's why it is worked out at https://www.dokuwiki.org/plugin:groupmanager in more detail.
+
+Installation
+------------
+
+Unzip into lib/plugins directory
+
+=====Syntax=====
+
+<code>~~groupmanager|[groups to manage]|[allowed users and groups]~~</code>
+
+Groups to manage separated by commas; the first group in the list will be the default group.
+
+**Be careful**:
+Use ''~~groupmanager~~'' in lowercase letters; ''~~GROUPMANAGER~~'' may not work!
+
+==== Example 1 ====
+
+<code>~~groupmanager|wg_mygroup_reader|@wg_mygroup_admin~~</code>
+
+Members of group ‘ wg_mygroup_reader ‘ can be managed by group ‘ wg_mygroup_admin ‘
+
+==== Example 2 ====
+
+<code>~~groupmanager|wg_mygroup_reader, wg_mygroup_editor|harald, @admin~~</code>
+
+Members of ‘ wg_mygroup_reader ‘ and ‘ wg_mygroup_editor ‘ can be managed by user ‘harald’ and members of the group ‘admin’
+
+
+REMARKS
+-------
+1.	In the examples above groups managed by groupmanager are named following the naming 
+	convention “wg_[groupname]_[role]”. This is not required by the syntax, but I would
+	advise it nevertheless. (Side note: The interface beautifies the name of groups for
+	simple users a bit by deleting the prefix “wg_”, replacing “_” with ” ” and
+	capitalizing the first letter of the resulting words.)
+2.	Super user groups can only be managed by super users
+3.	Group-admins may assign the group-admin role to other users!
+4.	But: users cannot remove themselves from the group that grants them access to the
+	group admin (including admins)
+5.	The conf_namespace option specifies a separate namespace for configuration.
+	When the config namespace is used, a placeholder tag (~~groupmanager~~) can be used
+	in the actual page while the full tag is placed in the configuration namespace at
+	config_namespace:ID. 
+6.	If require_conf_namespace is set, all configuration options placed in the page
+	are ignored, necessitating the use of the configuration namespace. For security
+	reasons, this is the default configuration.
+7.	The “forbidden_groups” configuration setting specifies groups that cannot be
+	edited with the plugin (only relevant if conf_namespace is not configured).
+8.	If allow_add_user is set, a dialog will be present in the interface that will
+	allow users to be added to the Wiki. They will be automatically added to the
+	“default” group, which is the first managed group (wg_mygroup_reader in the example).
+9.	If allow_delete_user is set, checkboxes will be added to each user-record.
+	Clicking on “update group” will delete checked users.

@@ -1,0 +1,7 @@
+base     pinboard
+author   desbest
+email    afaninthehouse@gmail.com
+date     2021-01-13
+name     Pinboard Template
+desc     Designed by One Designs, converted by desbest
+url      https://www.dokuwiki.org/template:pinboard

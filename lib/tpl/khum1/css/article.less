@@ -1,0 +1,156 @@
+/**
+ * Specific style in article zone.
+**/
+
+/*____________ Article ____________*/
+
+.dokuwiki div.page {
+    clear: both;
+    background: @ini_background;
+    color: inherit;
+    padding: 0em 2em;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+/*____________ TOC ____________*/
+#dw__toc {
+    border-color: @ini_neutral3;
+    border-style: solid;
+    border-width: thin;
+	padding-bottom: .5em;
+	margin-bottom: 1em;
+	font-weight: bold;
+	
+	ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+	ul .toc li {
+		list-style-type: decimal;
+	}
+	a {
+		text-decoration:none;
+	}
+}
+/* in case of toc list jumping one level
+  (e.g. if heading level 3 follows directly after heading level 1) */
+#dw__toc ul li.clear {
+}
+
+.toc .level1 .li {
+	text-align:center;
+	font-size:3em;
+}
+
+.toc .level2 .li, .toc .level3 .li, .toc .level4 .li, .toc .level5 .li {
+	text-align: inherit !important; 
+	font-size: 1em;
+}
+
+.dokuwiki h3.toggle {
+	padding: 0;
+	margin: 0;
+	padding: .2em .5em;
+}
+
+.dokuwiki .dw__toc h3.toggle {
+	padding: .2em .5em;
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
+.dokuwiki .dw__toc h3.toggle::before {
+	content:none;
+}
+
+.dokuwiki .toggle strong {
+    /*float: right;*/
+    margin: 0 .2em;
+	font-size: 1.5em;
+	/*position: absolute;
+	right: 1em;*/
+		display:flex;
+	flex-direction:row-reverse;
+}
+[dir=rtl] .dokuwiki .toggle strong {
+    float: left;
+}
+/*____________ Article Title ____________*/
+
+
+.kharticle h1 {
+    font-size: 2.2em;
+    margin: 0 0 0.444em;
+    border-bottom: 1px solid @ini_neutral2;
+    counter-reset: sectionh2 sectionh3 sectionh4;
+	color: @ini_title_color;
+}
+.kharticle h2:before {
+	content: counter(sectionh2) ". ";
+}
+.kharticle h2 {
+    font-size: 1.9em;
+    margin: 0 0 0.666em;
+    border-bottom: 1px solid @ini_neutral2;
+    counter-increment: sectionh2;
+    counter-reset: sectionh3;
+	color: @ini_title_color;
+}
+.kharticle h3:before {
+	content: counter(sectionh2) "." counter(sectionh3) ". " ;
+}
+.kharticle h3 {
+    font-size: 1.65em;
+    margin: 0 0 0.888em;
+    counter-increment: sectionh3;
+    counter-reset: sectionh4;
+	color: @ini_title_color;
+}
+
+.kharticle h4:before {
+	content: counter(sectionh2) "." counter(sectionh3) "." counter(sectionh4) "." ;
+}
+.kharticle h4 {
+    font-size: 1.3em;
+    margin: 0 0 1.0em;
+    counter-increment: sectionh4;
+	counter-reset: sectionh5;
+	color: @ini_title_color;
+}
+
+.kharticle h5:before {
+	content: counter(sectionh2) "." counter(sectionh3) "." counter(sectionh4) "." counter(sectionh5) ". " ;
+}
+
+.kharticle h5 {
+    font-size: 1em;
+    margin: 0 0 1.1428em;
+	counter-increment: sectionh5;
+    counter-reset: sectionh6;
+	color: @ini_title_color;
+}
+.kharticle h6 {
+    font-size: .75em;
+    margin: 0 0 1.333em;
+	color: @ini_title_color;
+}
+
+/*____________ Footer and DocInfo ____________*/
+.article_footer {
+	display:flex;
+	justify-content: space-between;
+	margin:0 1.5em;
+}
+
+.dokuwiki .docInfo {
+    font-size: 0.875em;
+    text-align: right;
+	padding: .1em 0em;
+	border-radius: 5px;
+	/* contrast for accessibility */
+	color: @ini_neutraldark;
+}

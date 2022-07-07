@@ -1,0 +1,82 @@
+/**
+* This file provide specific styles for some plugin (childpages, translation, 
+* wrap, etc.).
+**/
+
+/*____________ Translation ____________*/
+/* some stuff on mobile.less too */
+
+.plugin_translation {
+	/*display: inline;*/
+}
+.dokuwiki div.plugin_translation {
+	margin: 0 ;	
+	float: none;
+	margin-bottom: 1em;
+	text-align: inherit;
+	display:flex;
+	flex-direction: column;
+}
+
+.dokuwiki div.plugin_translation ul li a.wikilink1:link, .dokuwiki div.plugin_translation ul li a.wikilink1:hover, .dokuwiki div.plugin_translation ul li a.wikilink1:active, .dokuwiki div.plugin_translation ul li a.wikilink1:visited {
+	background-color: inherit;
+	color: @ini_link;
+	text-decoration: underline dotted;
+}
+
+.dokuwiki div.plugin_translation ul li a.wikilink2:link, .dokuwiki div.plugin_translation ul li a.wikilink2:hover, .dokuwiki div.plugin_translation ul li a.wikilink2:active, .dokuwiki div.plugin_translation ul li a.wikilink2:visited {
+	text-decoration: none;
+	border-bottom: 1px dashed !important;
+	color: @ini_link2;
+    background-color: inherit;
+}
+
+.dokuwiki div.plugin_translation select.wikilink1, .dokuwiki div.plugin_translation option.wikilink1 {
+	color: @ini_link;
+}
+.dokuwiki div.plugin_translation select, .dokuwiki div.plugin_translation input {
+	background-color: @ini_neutral4;
+}
+
+/*____________ Config manager ____________*/
+#config__manager fieldset {
+  background-color: @ini_background;
+}
+
+/*____________ Pagelist ____________*/
+
+div.dokuwiki th.page,
+div.dokuwiki th.date,
+div.dokuwiki th.user,
+div.dokuwiki th.desc,
+div.dokuwiki th.comments,
+div.dokuwiki th.linkbacks,
+div.dokuwiki th.tags,
+div.dokuwiki th.diff,
+div.dokuwiki td.date,
+div.dokuwiki td.user,
+div.dokuwiki td.desc,
+div.dokuwiki td.comments,
+div.dokuwiki td.linkbacks,
+div.dokuwiki td.tags,
+div.dokuwiki td.diff {
+  font-size: 95% !important ;
+}
+
+/*____________ Wrap ____________*/
+/* some stuff on mobile.less too */
+/* basic box */
+.dokuwiki .wrap_box {
+	background: #d1c7ff !important;
+}
+/* Never round box... But Outset ! */
+.dokuwiki div.wrap_round {
+	border-radius: inherit !important;
+	border: outset #d1c7ff;
+}
+
+/*____________ Blog ____________*/
+/* Don't underline when it's a title... */
+.plugin_include_content h1 a, .plugin_include_content h2 a, .plugin_include_content h3 a, .plugin_include_content h4 a {
+        text-decoration: inherit;
+}

@@ -1,0 +1,27 @@
+<form>
+action mail @MAIL@ massinissaait2018@gmail.com
+usemailtemplate your:template
+subject "new special subject"
+
+fieldset  "Your Order"
+textbox   "Your Name"
+select    "What do you want"  "Car|Blimp"
+
+fieldset  "Car Parameters" "What do you want" "Car"
+number    "Number of Wheels"
+textbox   "Extras"
+
+fieldset  "Blimp Parameters" "What do you want" "Blimp"
+select    "Filling" "Helium|Hot Air"
+number    "Size"
+
+fieldset  "Payment"
+yesno     "Can you pay right now?"
+
+fieldset  "Details" "Can you pay right now?"
+textbox   "Name"
+number    "Amount"
+
+fieldset  "Confirm Order"
+submit "Submit Query"
+</form>

@@ -1,0 +1,39 @@
+div.plugin_linkimage:hover img {
+    opacity: 0.45;
+    animation: scaleOnHover 0.6s ease-in-out;
+    transform: scale(1.1, 1.1);
+
+}
+div.plugin_linkimage:hover div.title{
+    background-color:#375a7f;
+    opacity: 0.80;
+
+}
+div.plugin_linkimage {
+	overflow: hidden;
+	position:relative;
+	margin-bottom: 26px;
+	box-shadow: 0px 0px 6px -2px white;
+}
+div.plugin_linkimage:hover {
+    box-shadow: 0px 0px 6px 0px white;
+}
+
+div.plugin_linkimage img {
+	margin:0px !important;
+}
+
+div.plugin_linkimage div.title {
+	background-color:black;
+	opacity:0.5;
+	font-size:120%;
+	color:white;
+	
+	width:100%;
+	bottom:0px;
+	position:absolute;
+	padding-left:5px;
+}
+div.plugin_linkimage div.title *{
+
+}

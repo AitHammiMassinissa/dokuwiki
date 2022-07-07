@@ -1,0 +1,22 @@
+
+=====Committee=====
+<form>
+action template wiki:reponse_Committee "Committee :@@upward committee@@"
+Thanks "Thanks for submitting your valuable data."
+
+
+
+Textarea  "upward committee" !
+Textbox  "committee name" !
+Textbox  "committee challenge" !
+Textbox  "chairs" !
+Textbox  "members" !
+Textarea "downward committees" !
+
+
+fieldset "agreement"
+
+yesno "Read the agreement?"
+textbox "You need to write 'agree' here" /^agree$/
+submit "Submit Query"
+</form>

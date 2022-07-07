@@ -1,0 +1,7 @@
+base   structupdate
+author Szymon Olewniczak
+email  it@rid.pl
+date   2021-02-18
+name   structupdate plugin
+desc   Adds action to bureaucracy forms that allows to update struct data of the page
+url    https://www.dokuwiki.org/plugin:structupdate

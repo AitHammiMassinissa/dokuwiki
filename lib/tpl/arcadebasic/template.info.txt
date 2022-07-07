@@ -1,0 +1,7 @@
+base     arcadebasic
+author   desbest
+email    afaninthehouse@gmail.com
+date     2021-01-12
+name     Arcade Basic Template
+desc     Designed by C Bavota, converted by desbest
+url      https://www.dokuwiki.org/template:arcadebasic

@@ -1,0 +1,28 @@
+=====Institutional Member =====
+
+<form>
+
+action template wiki:reponse_Institutional_member "InstitutionalMember:@@institutional member name@@"
+Thanks "Thanks for submitting your valuable data."
+
+Fieldset "Institutional member" 
+static "ihihihime :"
+
+
+Textbox  "institutional member name" 
+
+
+lkljlj
+
+Textbox  "institutional member short name" 
+Textbox  "commitment letter" 
+Textbox  "challenge" 
+Textbox  "institutional committee" 
+Textbox  "institutional associated members" 
+
+fieldset "agreement"
+
+yesno "Read the agreement?"
+textbox "You need to write 'agree' here" /^agree$/
+submit "Submit Query"
+</form>

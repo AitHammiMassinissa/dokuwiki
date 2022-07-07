@@ -1,0 +1,302 @@
+/**
+ * This file provides the main design styles for the page content.
+ *
+ * @author Anika Henke <anika@selfthinker.org>
+ * @author Andreas Gohr <andi@splitbrain.org>
+ * @author Clarence Lee <clarencedglee@gmail.com>
+
+ * Lot of useful stuff :
+		* sitemap (and backlinks)
+		* links to wiki pages
+		* images
+		* lists
+		* tables
+		* code
+		* JS popup
+		* changes to underscored CSS files
+		* changes to _edit
+		* changes to _imgdetail
+ 
+ 
+ */
+
+/*____________ sitemap (and backlinks) ____________*/
+/* sitemap (?do=index) and backlinks (?do=backlink). */
+.dokuwiki ul.idx {
+    padding-left: 0;
+}
+[dir=rtl] .dokuwiki ul.idx {
+    padding-right: 0;
+}
+.dokuwiki ul.idx li {
+    list-style-image: url(../../images/bullet.png);
+}
+.dokuwiki ul.idx li.open {
+    list-style-image: url(../../images/open.png);
+}
+.dokuwiki ul.idx li.closed {
+    list-style-image: url(../../images/closed.png);
+}
+[dir=rtl] .dokuwiki ul.idx li.closed {
+    list-style-image: url(../../images/closed-rtl.png);
+}
+
+/*____________ links to wiki pages (addition to _links) ____________*/
+
+/* existing wikipage */
+.dokuwiki a.wikilink1 {
+    color: @ini_link;
+    background-color: inherit;
+}
+
+/* not existing wikipage */
+.dokuwiki a.wikilink2 {
+    color: @ini_link2;
+    background-color: inherit;
+}
+
+/*____________ images ____________*/
+
+/* embedded images (styles are already partly set in lib/styles/all.css) */
+.dokuwiki img.media {
+    margin: .2em 0;
+}
+
+.dokuwiki img.medialeft {
+    margin: .2em 1em .2em 0;
+}
+
+.dokuwiki img.mediaright {
+    margin: .2em 0 .2em 1em;
+}
+
+.dokuwiki img.mediacenter {
+    margin: .2em auto;
+}
+
+/*____________ lists ____________*/
+
+.dokuwiki .page,
+.dokuwiki .sidebar {
+    ul li {
+        color: @ini_link;
+    }
+
+    ol li {
+        color: @ini_text_neu;
+    }
+
+    li .li {
+        color: @ini_text;
+    }
+}
+
+
+/*____________ tables ____________*/
+
+table {
+    border-collapse: collapse;
+    empty-cells: show;
+    border-spacing: 0;
+    border: 1px solid @ini_border;
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+}
+[dir=rtl] caption {
+    text-align: right;
+}
+
+th,
+td {
+    padding: .3em .5em;
+    margin: 0;
+    vertical-align: top;
+    border: 1px solid @ini_border;
+}
+th {
+    font-weight: bold;
+    background-color: @ini_color7;
+    text-align: left;
+}
+[dir=rtl] th {
+    text-align: right;
+}
+
+/* div around each table */
+.dokuwiki div.table {
+    overflow-x: auto;
+    margin-bottom: 1.4em;
+}
+
+.dokuwiki div.table table {
+    margin-bottom: 0;
+}
+
+.dokuwiki table.inline {
+    min-width: 50%;
+}
+
+.dokuwiki table.inline tr:hover td {
+    background-color: @ini_neutral4;
+}
+
+.dokuwiki table.inline tr:hover th {
+    background-color: @ini_border;
+}
+
+/* More space between line in table with list */
+div.dokuwiki table.ul th, div.dokuwiki table.ul td {
+    padding: 0 0.5em 1em 0;
+}
+
+/*____________ code ____________*/
+
+/* fix if background-color hides underlining */
+.dokuwiki em.u code {
+    text-decoration: underline;
+}
+
+/* filenames for downloadable file and code blocks */
+.dokuwiki dl.code,
+.dokuwiki dl.file {
+    dt {
+        background-color: @ini_background;
+        background: linear-gradient(to bottom, @ini_background_alt 0%, @ini_background 100%);
+        color: inherit;
+        border: 1px solid @ini_border;
+        border-bottom-color: @ini_background;
+        border-top-left-radius: .3em;
+        border-top-right-radius: .3em;
+        padding: .3em .6em .1em;
+        margin-bottom: -1px;
+        float: left;
+
+        a {
+            background-color: transparent;
+            font-size: 0.875em;
+            font-weight: normal;
+            display: block;
+            min-height: 16px;
+        }
+    }
+
+    dd {
+        margin: 0;
+        clear: left;
+    }
+
+    pre {
+        box-shadow: inset -4px -4px .5em -.3em @ini_border;
+    }
+}
+
+[dir=rtl] .dokuwiki dl.code,
+[dir=rtl] .dokuwiki dl.file {
+    dt {
+        float: right;
+    }
+
+    dd {
+        clear: right;
+    }
+}
+
+/* for code in <file> */
+.dokuwiki dl.file {
+    pre,
+    dt {
+        border-style: dashed;
+    }
+    dt {
+        border-bottom-style: solid;
+    }
+}
+
+/*____________ JS popup ____________*/
+
+.JSpopup {
+    background-color: @ini_background;
+    color: @ini_text;
+    border: 1px solid @ini_border;
+    box-shadow: .1em .1em .1em @ini_border;
+    border-radius: 2px;
+    padding: .3em .5em;
+    font-size: .9em;
+}
+
+.dokuwiki form.search div.ajax_qsearch {
+    top: -.35em;
+    font-size: 1em;
+    text-overflow: ellipsis;
+}
+
+.JSpopup ul,
+.JSpopup ol {
+    padding-left: 0;
+}
+
+[dir=rtl] .JSpopup ul,
+[dir=rtl] .JSpopup ol {
+    padding-right: 0;
+}
+
+/*____________ changes to underscored CSS files ____________*/
+
+
+#acl__tree li {
+    margin: 0;
+}
+
+#dokuwiki__content span.curid a {
+    font-weight: normal;
+}
+
+#dokuwiki__content strong span.curid a {
+    font-weight: bold;
+}
+
+/*____________ changes to _imgdetail ____________*/
+
+#dokuwiki__detail {
+    padding: 0;
+
+    img {
+        float: none;
+        margin-bottom: 1.4em;
+    }
+
+    div.img_detail {
+        float: none;
+    }
+
+    div.img_detail dl {
+        overflow: hidden;
+    }
+
+    div.img_detail dl dt {
+        float: left;
+        width: 9em;
+        text-align: right;
+        clear: left;
+    }
+
+    div.img_detail dl dd {
+        margin-left: 9.5em;
+    }
+}
+
+[dir=rtl] #dokuwiki__detail div.img_detail {
+    dl dt {
+        float: right;
+        text-align: left;
+        clear: right;
+    }
+
+    dl dd {
+        margin-left: 0;
+        margin-right: 9.5em;
+    }
+}

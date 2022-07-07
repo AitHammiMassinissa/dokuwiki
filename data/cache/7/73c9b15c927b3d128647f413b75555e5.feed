@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generator="FeedCreator 1.8" -->
+<?xml-stylesheet href="http://www.cosypedia.org/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://www.cosypedia.org/feed.php">
+        <title>Complex Systems Digital Campus</title>
+        <description></description>
+        <link>http://www.cosypedia.org/</link>
+        <image rdf:resource="http://www.cosypedia.org/lib/tpl/dokuwiki/images/favicon.ico" />
+       <dc:date>2022-07-07T09:05:19+00:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/?image=territorial_community%3Axwn%3Av%3Anwv%3Avw%3Acapture_d_ecran_de_2022-06-28_19-51-04.png&amp;ns=territorial_community%3Axwn%3Av%3Anwv%3Avw&amp;rev=1657128430&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/?image=territorial_community%3Axwn%3Av%3Anwv%3Avw%3Acapture_d_ecran_de_2022-07-05_17-21-06.png&amp;ns=territorial_community%3Axwn%3Av%3Anwv%3Avw&amp;rev=1657128430&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/?image=territorial_community%3Axwn%3Av%3Anwv%3Avw%3Aalt5.png&amp;ns=territorial_community%3Axwn%3Av%3Anwv%3Avw&amp;rev=1657128430&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/territorial_community:xwn:v:nwv:vw?rev=1657128430&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/fr_fr_formulaire_institutional_member?rev=1657052178&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/fr_fr_formulaire_community?rev=1657049701&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/fr_fr_formulaire_committee?rev=1657049113&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/fr_formulaire_individual_member?rev=1657048927&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/committee:upward_committee?rev=1657046148&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/institutionalmember:jfjgfjgj?rev=1657046106&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/individualmember:individual_member?rev=1657046012&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/fr_fr_formulaire_territorial_community?rev=1657045215&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/community:c12?rev=1657045074&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/committee:vnvnvn?rev=1657044964&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/start?rev=1657043699&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/?image=csdc.png&amp;ns=&amp;rev=1657020787&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/?image=territorial_community%3Ayousra%3Ass.jpg&amp;ns=territorial_community%3Ayousra&amp;rev=1657019558&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/territorial_community:yousra?rev=1657019558&amp;do=diff"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/?image=territorial_community%3Apaul%3Ass.jpg&amp;ns=territorial_community%3Apaul&amp;rev=1657019535&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+                <rdf:li rdf:resource="http://www.cosypedia.org/doku.php/?image=territorial_community%3Aerererer%3Apaul.jpg&amp;ns=territorial_community%3Aerererer&amp;rev=1657019429&amp;tab_details=history&amp;mediado=diff&amp;do=media"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="http://www.cosypedia.org/lib/tpl/dokuwiki/images/favicon.ico">
+        <title>Complex Systems Digital Campus</title>
+        <link>http://www.cosypedia.org/</link>
+        <url>http://www.cosypedia.org/lib/tpl/dokuwiki/images/favicon.ico</url>
+    </image>
+    <item rdf:about="http://www.cosypedia.org/doku.php/?image=territorial_community%3Axwn%3Av%3Anwv%3Avw%3Acapture_d_ecran_de_2022-06-28_19-51-04.png&amp;ns=territorial_community%3Axwn%3Av%3Anwv%3Avw&amp;rev=1657128430&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-06T17:27:10+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>territorial_community:xwn:v:nwv:vw:capture_d_ecran_de_2022-06-28_19-51-04.png - created</title>
+        <link>http://www.cosypedia.org/doku.php/?image=territorial_community%3Axwn%3Av%3Anwv%3Avw%3Acapture_d_ecran_de_2022-06-28_19-51-04.png&amp;ns=territorial_community%3Axwn%3Av%3Anwv%3Avw&amp;rev=1657128430&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;http://www.cosypedia.org/lib/exe/fetch.php/territorial_community:xwn:v:nwv:vw:capture_d_ecran_de_2022-06-28_19-51-04.png?w=500&amp;h=281&amp;t=1657128430&amp;amp;tok=a0df96&quot; alt=&quot;territorial_community:xwn:v:nwv:vw:capture_d_ecran_de_2022-06-28_19-51-04.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/?image=territorial_community%3Axwn%3Av%3Anwv%3Avw%3Acapture_d_ecran_de_2022-07-05_17-21-06.png&amp;ns=territorial_community%3Axwn%3Av%3Anwv%3Avw&amp;rev=1657128430&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-06T17:27:10+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>territorial_community:xwn:v:nwv:vw:capture_d_ecran_de_2022-07-05_17-21-06.png - created</title>
+        <link>http://www.cosypedia.org/doku.php/?image=territorial_community%3Axwn%3Av%3Anwv%3Avw%3Acapture_d_ecran_de_2022-07-05_17-21-06.png&amp;ns=territorial_community%3Axwn%3Av%3Anwv%3Avw&amp;rev=1657128430&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;http://www.cosypedia.org/lib/exe/fetch.php/territorial_community:xwn:v:nwv:vw:capture_d_ecran_de_2022-07-05_17-21-06.png?w=500&amp;h=281&amp;t=1657128430&amp;amp;tok=915fcc&quot; alt=&quot;territorial_community:xwn:v:nwv:vw:capture_d_ecran_de_2022-07-05_17-21-06.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/?image=territorial_community%3Axwn%3Av%3Anwv%3Avw%3Aalt5.png&amp;ns=territorial_community%3Axwn%3Av%3Anwv%3Avw&amp;rev=1657128430&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-06T17:27:10+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>territorial_community:xwn:v:nwv:vw:alt5.png - created</title>
+        <link>http://www.cosypedia.org/doku.php/?image=territorial_community%3Axwn%3Av%3Anwv%3Avw%3Aalt5.png&amp;ns=territorial_community%3Axwn%3Av%3Anwv%3Avw&amp;rev=1657128430&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;http://www.cosypedia.org/lib/exe/fetch.php/territorial_community:xwn:v:nwv:vw:alt5.png?w=500&amp;h=172&amp;t=1657128430&amp;amp;tok=cc96e2&quot; alt=&quot;territorial_community:xwn:v:nwv:vw:alt5.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/territorial_community:xwn:v:nwv:vw?rev=1657128430&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-06T17:27:10+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>territorial_community:xwn:v:nwv:vw - Created from the form at fr_fr_formulaire_territorial_community</title>
+        <link>http://www.cosypedia.org/doku.php/territorial_community:xwn:v:nwv:vw?rev=1657128430&amp;do=diff</link>
+        <description>Territorial community</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/fr_fr_formulaire_institutional_member?rev=1657052178&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T20:16:18+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>fr_fr_formulaire_institutional_member</title>
+        <link>http://www.cosypedia.org/doku.php/fr_fr_formulaire_institutional_member?rev=1657052178&amp;do=diff</link>
+        <description>Institutional Member</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/fr_fr_formulaire_community?rev=1657049701&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T19:35:01+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>fr_fr_formulaire_community</title>
+        <link>http://www.cosypedia.org/doku.php/fr_fr_formulaire_community?rev=1657049701&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/fr_fr_formulaire_committee?rev=1657049113&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T19:25:13+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>fr_fr_formulaire_committee</title>
+        <link>http://www.cosypedia.org/doku.php/fr_fr_formulaire_committee?rev=1657049113&amp;do=diff</link>
+        <description>Committee</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/fr_formulaire_individual_member?rev=1657048927&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T19:22:07+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>fr_formulaire_individual_member</title>
+        <link>http://www.cosypedia.org/doku.php/fr_formulaire_individual_member?rev=1657048927&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/committee:upward_committee?rev=1657046148&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T18:35:48+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>committee:upward_committee - Created from the form at fr_fr_formulaire_committee</title>
+        <link>http://www.cosypedia.org/doku.php/committee:upward_committee?rev=1657046148&amp;do=diff</link>
+        <description>Committeee</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/institutionalmember:jfjgfjgj?rev=1657046106&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T18:35:06+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>institutionalmember:jfjgfjgj - Created from the form at fr_fr_formulaire_institutional_member</title>
+        <link>http://www.cosypedia.org/doku.php/institutionalmember:jfjgfjgj?rev=1657046106&amp;do=diff</link>
+        <description>Institutional Member</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/individualmember:individual_member?rev=1657046012&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T18:33:32+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>individualmember:individual_member - Created from the form at fr_formulaire_individual_member</title>
+        <link>http://www.cosypedia.org/doku.php/individualmember:individual_member?rev=1657046012&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/fr_fr_formulaire_territorial_community?rev=1657045215&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T18:20:15+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>fr_fr_formulaire_territorial_community - created</title>
+        <link>http://www.cosypedia.org/doku.php/fr_fr_formulaire_territorial_community?rev=1657045215&amp;do=diff</link>
+        <description>Territorial community</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/community:c12?rev=1657045074&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T18:17:54+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>community:c12 - Created from the form at fr_fr_formulaire_community</title>
+        <link>http://www.cosypedia.org/doku.php/community:c12?rev=1657045074&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/committee:vnvnvn?rev=1657044964&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T18:16:04+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>committee:vnvnvn - Created from the form at fr_fr_formulaire_committee</title>
+        <link>http://www.cosypedia.org/doku.php/committee:vnvnvn?rev=1657044964&amp;do=diff</link>
+        <description>Committeee</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/start?rev=1657043699&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T17:54:59+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>start</title>
+        <link>http://www.cosypedia.org/doku.php/start?rev=1657043699&amp;do=diff</link>
+        <description>Page d'accueil
+
+
+
+----------
+
+
+CS-DC’21 is the World e-Conference organized by the Complex Systems Digital Campus (CS-DC), a UNESCO UniTwin. It is devoted to all scientists involved in the transdisciplinary challenges of complex systems, crossing theoretical questions with experimental observations of multi-level dynamics. The previous one is CS-DC’15. It is open to e-satellite workshop CALL</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/?image=csdc.png&amp;ns=&amp;rev=1657020787&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T11:33:07+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>csdc.png - created</title>
+        <link>http://www.cosypedia.org/doku.php/?image=csdc.png&amp;ns=&amp;rev=1657020787&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;http://www.cosypedia.org/lib/exe/fetch.php/csdc.png?w=300&amp;h=184&amp;t=1657020787&amp;amp;tok=283f2a&quot; alt=&quot;csdc.png&quot; /&gt;</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/?image=territorial_community%3Ayousra%3Ass.jpg&amp;ns=territorial_community%3Ayousra&amp;rev=1657019558&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T11:12:38+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>territorial_community:yousra:ss.jpg - created</title>
+        <link>http://www.cosypedia.org/doku.php/?image=territorial_community%3Ayousra%3Ass.jpg&amp;ns=territorial_community%3Ayousra&amp;rev=1657019558&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;http://www.cosypedia.org/lib/exe/fetch.php/territorial_community:yousra:ss.jpg?w=500&amp;h=311&amp;t=1657019558&amp;amp;tok=93de58&quot; alt=&quot;territorial_community:yousra:ss.jpg&quot; /&gt;</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/territorial_community:yousra?rev=1657019558&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T11:12:38+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>territorial_community:yousra - Created from the form at fr:fr:formulaire_territorial_community</title>
+        <link>http://www.cosypedia.org/doku.php/territorial_community:yousra?rev=1657019558&amp;do=diff</link>
+        <description>Territorial community</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/?image=territorial_community%3Apaul%3Ass.jpg&amp;ns=territorial_community%3Apaul&amp;rev=1657019535&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T11:12:15+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>territorial_community:paul:ss.jpg - created</title>
+        <link>http://www.cosypedia.org/doku.php/?image=territorial_community%3Apaul%3Ass.jpg&amp;ns=territorial_community%3Apaul&amp;rev=1657019535&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;http://www.cosypedia.org/lib/exe/fetch.php/territorial_community:paul:ss.jpg?w=500&amp;h=311&amp;t=1657019535&amp;amp;tok=2eb8d1&quot; alt=&quot;territorial_community:paul:ss.jpg&quot; /&gt;</description>
+    </item>
+    <item rdf:about="http://www.cosypedia.org/doku.php/?image=territorial_community%3Aerererer%3Apaul.jpg&amp;ns=territorial_community%3Aerererer&amp;rev=1657019429&amp;tab_details=history&amp;mediado=diff&amp;do=media">
+        <dc:format>text/html</dc:format>
+        <dc:date>2022-07-05T11:10:29+00:00</dc:date>
+        <dc:creator>csdcunitwin (csdcunitwin@undisclosed.example.com)</dc:creator>
+        <title>territorial_community:erererer:paul.jpg - created</title>
+        <link>http://www.cosypedia.org/doku.php/?image=territorial_community%3Aerererer%3Apaul.jpg&amp;ns=territorial_community%3Aerererer&amp;rev=1657019429&amp;tab_details=history&amp;mediado=diff&amp;do=media</link>
+        <description>&lt;img src=&quot;http://www.cosypedia.org/lib/exe/fetch.php/territorial_community:erererer:paul.jpg?w=180&amp;h=180&amp;t=1657019429&amp;amp;tok=0c1c8c&quot; alt=&quot;territorial_community:erererer:paul.jpg&quot; /&gt;</description>
+    </item>
+</rdf:RDF>

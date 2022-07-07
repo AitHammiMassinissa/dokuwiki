@@ -1,0 +1,273 @@
+/**
+ * This file provides styles for mobile devices
+ * and smaller screens (up to 480px and 768px width).
+ *
+ * @author Anika Henke <anika@selfthinker.org>
+ * some additions by zatalyz (in cc0, have a fun)
+ */
+
+/* for detecting media queries in JavaScript (see script.js): */
+#screen__mode {
+    position: relative;
+    z-index: 0;
+}
+/* Things who are not displayed on normal screen (but detailled below)
+********************************************************************/
+#dokuwiki__header .mobileTools {
+    display: none; /* hide mobile tools dropdown to only show in mobile view */
+}
+
+
+/* for screen widths in the smartphone range
+********************************************************************/
+@media only screen and (max-width: @ini_phone_width) {
+
+/* element non displayed on mobile */
+.nomobile {
+	display:none !important;
+}
+
+#screen__mode {
+    z-index: 2; /* for detecting media queries in JavaScript (see script.js) */
+}
+
+#dokuwiki__site .wrapper {
+	display: block;
+}
+
+/*____________ structure - sidebar ____________*/
+
+#dokuwiki__sidebar {
+    margin-bottom: 1em;
+	width: 100%;
+	float: none;
+}
+
+#dokuwiki__sidebar > .pad,
+[dir=rtl] #dokuwiki__sidebar > .pad {
+		margin-bottom: 1em;
+		padding: 1em;
+		margin-bottom: 0;
+		display:flex;
+		flex-direction: column;
+}
+
+#dokuwiki__sidebar h3.toggle {
+    font-size: 1em;
+
+    &.closed {
+        margin: 0;
+        padding-bottom: 0;
+		background-color: @ini_background;
+    }
+    &.open {
+        border-bottom: 1px solid @ini_border;
+		padding-bottom: 0;
+		background-color: @ini_background;
+		margin: 0;
+    }
+}
+
+.showSidebar #dokuwiki__content, #dokuwiki__content {
+    float: none;
+    margin-left: 0;
+    width: 100%;
+	margin:0;
+	max-width: calc (@ini_article_width + 10);
+	min-width: inherit;
+
+    > .pad {
+        margin-left: 0;
+    }
+}
+
+[dir=rtl] .showSidebar #dokuwiki__content,
+[dir=rtl] .showSidebar #dokuwiki__content > .pad {
+    margin-right: 0;
+}
+
+/*____________ header ____________*/
+
+#dokuwiki__header ul.a11y.skip {
+    position: static !important;
+    left: 0 !important;
+    width: auto !important;
+    height: auto !important;
+    float: right;
+    font-size: 0.875em;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+
+    li {
+        margin-left: .35em;
+        display: inline;
+    }
+}
+[dir=rtl] #dokuwiki__header ul.a11y.skip {
+    left: auto !important;
+    right: 0 !important;
+    float: left;
+    padding-right: 0;
+
+    li {
+        margin: 0 .35em 0 0;
+    }
+}
+
+#dokuwiki__header .headings,
+#dokuwiki__header .tools {
+    float: none;
+    text-align: left;
+    width: auto;
+    margin-bottom: .5em;
+}
+[dir=rtl] #dokuwiki__header .headings,
+[dir=rtl] #dokuwiki__header .tools {
+    float: none;
+    text-align: right;
+    width: auto;
+}
+#dokuwiki__sitetools {
+    text-align: left;
+}
+[dir=rtl] #dokuwiki__sitetools {
+    text-align: right;
+}
+
+#dokuwiki__header .headings {
+	display:block;
+}
+
+/* search form */
+.mobileTools form.search {
+    float: left;
+    margin: 0 .2em .2em 0;
+    width: 100%;
+}
+[dir=rtl] .mobileTools form.search {
+    float: right;
+    margin: 0 0 .2em .2em;
+}
+
+.mobileTools form.search input {
+    width: 100% !important;
+}
+.dokuwiki form.search div.ajax_qsearch {
+    display: none !important;
+}
+
+/* action dropdown is alternative for all hidden tools */
+#dokuwiki__header .mobileTools {
+    display: block;
+    font-size: 0.875em;
+    margin: 0 0 .2em 0;
+    width: 100%;
+}
+[dir=rtl] #dokuwiki__header .mobileTools {
+    float: left;
+}
+#dokuwiki__header .mobileTools select {
+    padding: .3em .1em;
+    width: 100% !important;
+}
+
+/* force same height on search input and tools select */
+#dokuwiki__sitetools form.search input,
+#dokuwiki__header .mobileTools select {
+    height: 2.1em;
+    line-height: 2.1em;
+    overflow: visible;
+}
+
+
+/*____________ content ____________*/
+
+
+#dokuwiki__sidebar > .pad,
+.dokuwiki div.page {
+    padding: 0;
+	margin:0;
+}
+
+.kharticle {
+	margin:0.3em;
+}
+/* form elements */
+#config__manager fieldset td.value,
+#config__manager td .input,
+.dokuwiki fieldset,
+/*.dokuwiki input.edit,*/
+.dokuwiki textarea {
+    width: auto !important;
+    max-width: 100% !important;
+}
+.dokuwiki select {
+    max-width: 100% !important;
+}
+#config__manager fieldset {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.dokuwiki label.block {
+    text-align: left;
+
+    span {
+        display: block;
+    }
+}
+[dir=rtl] .dokuwiki label.block {
+    text-align: right;
+}
+
+tbody tr td ul, tbody tr td ul li {
+	margin: 0 !important;
+}
+
+/* _edit */
+.dokuwiki div.section_highlight {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+.dokuwiki div.preview {
+    margin: 0 -.5em;
+    padding: .5em;
+	width: initial;
+}
+
+/* to top */
+.to_top {
+	display:block;
+	right:1em;
+}
+
+/** Plugin **/
+/* Translation */
+.dokuwiki div.plugin_translation {
+	display: block !important;	
+	float:none;
+	margin-bottom:1em;
+	text-align:center;
+	}
+/* Wrap */
+.dokuwiki div.wrap_box {
+		width: 100% !important;
+	}
+
+
+} /* /@media */
+
+
+/* for screen heights smaller than the pagetools permit
+********************************************************************/
+@media only screen and (max-height: 400px) {
+// 400px is only roughly the required value, this may be wrong under non-standard circumstances
+
+.kh_pagetools div.tools {
+    position: static;
+}
+
+
+} /* /@media */
